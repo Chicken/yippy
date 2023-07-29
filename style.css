@@ -1,0 +1,43 @@
+body {
+  background-color: #202020;
+  color: rgb(244, 147, 196);
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2em;
+}
+
+.wpms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wpms div {
+  width: 50%;
+}
+
+.wpms div:nth-child(1) div {
+  float: right;
+}
+
+.wpms div div {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wpms div div p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.wpms div div h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+}
